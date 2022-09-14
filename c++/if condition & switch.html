@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name ="description" content="this website is taking about c++ ">
+    <link rel="stylesheet"href="style.css">
+    <title> home page of c++  </title>
+    
+</head>
+
+
+       <body>
+        <div>
+            <i> welcome in  c++ </i>
+          </div>
+<h1> if...else Statement :</h1>
+<div class="ok">
+    In this tutorial, you will learn about if statement (including if...else and nested if..else)<br>
+     in C programming with the help of examples.<br><br><br>
+     The syntax of the if statement in C programming is:
+<div class="ok">
+    <span class="if">if</span> (<mark>test expression</mark>)<br> 
+{<br>
+ &nbsp;&nbsp;  <span class="pop">  // statements to be executed if the test expression is true</span> <br>
+}<br>
+
+</div>
+</div>
+<h1> How if statement works?</h1>
+<div class="ok">
+    The if statement evaluates the test expression inside the parenthesis ().<br>
+    <ul>
+        <li>
+            If the test expression is evaluated to true, statements inside the body of if are executed.
+
+        </li>
+        <li>If the test expression is evaluated to false, statements inside the body of if are not executed.
+        </li>
+
+    </ul> 
+    <div class="ok">
+    <div class="ok">
+        &nbsp;&nbsp; <span class ="co"><b>expression is true:</b></span><br>
+        &nbsp;&nbsp; <span class="co">int</span> text=5 <br>
+        &nbsp;&nbsp;<span class="if">if</span> ( text < 10 )<br>
+        &nbsp;&nbsp;{====>&nbsp; <span class="pop">//code</span>}<br>
+        &nbsp;&nbsp;<span class="pop">//code after if</span> 
+    </div>
+    &nbsp;
+    <div class="ok">
+        &nbsp;&nbsp;   <span class ="co"><b>expression is true :<b></span><br>
+        &nbsp;&nbsp;    <span class="co">int</span> text = 5 <br>
+        &nbsp;&nbsp;    <span class="if">if</span> ( text < 10 )<br>
+        &nbsp;&nbsp;{<span class="pop">//code </span><br>}<br>
+        &nbsp;&nbsp;====><span class="pop">//code after if</span>     
+        &nbsp;
+</div>
+</div>
+<h1> Example 1: if statement </h1><br> 
+<div class="ok">
+   <span class="pop"> // Program to display a number if it is negative</span><br>
+
+   <span class="if">#include</span> &lt;iostrem&gt;<br>
+   using <span class="if">namespace</span> std;<br>
+    <span class="co">int</span> main() {<br>
+        <span class="co">int</span> number;<br>
+    
+    <span class="if">cout</span> &lt;&lt;<span class="to">"Enter an integer:"</span> ;<br>
+        <span class="if">cin</span> >> number;<br>
+    
+        <span class="pop"> // true if number is less than 0 </span><br>
+        <span class="if">if</span> (number < 0) {<br>
+            <span class="if">cout</span> &lt;&lt; <span class="to">" this number is negative\n"</span>;<br> 
+        }<br>
+    
+        <span class="if">cout</span> &lt;&lt; <span class="to">" this number is positive \n"</span>;<br>
+    
+        <span class="if"> return </span> 0;<br>
+    }<br>     
+
+</div>
+<h1> Output   </h1>
+<div class="ok">  
+    Enter an integer: -5<br>    
+    this number is negative 
+</div>
+</div>
+<h1>Switch Statement in C/C++ :</h1><br> 
+<div class="ok">
+    Switch case statements are a substitute for long if statements <br>
+    that compare a variable to several integral values<br><br>
+    <ul>
+        <li> The switch statement is a multiway branch statement. It provides an easy way to dispatch execution to 
+            <br>different parts of code based on the value of the expression.</li>
+        <li> Switch is a control statement that allows a value to change control of execution.</li>
+    </ul>
+    <h2>Syntax:</h2><br>
+    <div class="ok"> 
+        <span class="if">switch</span> (<mark>n</mark>)<br>
+{<br>
+    <span class="co">case</span> 1: <span class="pop">// code to be executed if n = 1; </span><br>
+        <span class="if">break</span>;<br>
+    <span class="co">case</span> 2:<span class="pop"> // code to be executed if n = 2;</span><br>
+        <span class="if">break</span>;<br>
+    <span class="if">default</span>:<span class="pop">// code to be executed if n doesn't match any cases</span><br>
+}<br>
+</div>
+    </div>
+    <h2>Flowchart :</h2>
+    <div class="ok">
+        <center><img src="switch.PNG" width="300" height="300"></center> 
+        </div>
+<h1> Example (switch):</h1>
+<div class="ok"> 
+    <span class="if">include</span> &lt;iostrem&gt;<br>  
+        using <span class="if">namespace</span> std;<br> 
+          
+        <span class="co">int</span> main() { <br>
+        <span class="co">int</span> x = 2; <br>
+            <span class="if">switch</span> (x) <br>
+            { <br>
+                <span class="co">case</span> 1:  <br>
+                    <span class="if">cout</span> &lt;&lt; <span class="to"> "Choice is 1";</span> <br>
+                    <span class="if">break</span>; <br>
+                <span class="co">case</span> 2:  <br>
+                    <span class="if">cout</span> &lt;&lt; <span class="to">"Choice is 2" </span>;<br> 
+                    <span class="if">break</span>; <br>
+                <span class="co">case</span> 3:  <br>
+                    <span class="if">cout</span> &lt;&lt;<span class="to"> "Choice is 3" </span>;<br> 
+                    <span class="if">break</span>; <br>
+                <span class="if">default</span>: <br> 
+                    <span class="if">cout</span> &lt;&lt; <span class="to">"Choice other than 1, 2 and 3" </span>;<br> 
+                    <span class="if">break</span>;<br>   
+            }<br> 
+        <span class="if">return</span> 0;<br> 
+        } <br>
+
+        <h2> the Output :</h2>
+        <div class="ok">
+            Choice is 2
+        </div>
+</div>
+<br> <hr>
+        <div class="oy">
+
+            <ul class="ull">
+                
+            <li> <a href="if condition & switch.html">if condition & switch</a> </li>
+            <li> <a href="for loob&while&do while.html">for loob & while & do while</a> </li>
+            <li> <a href="struct & functions & arrys.html">struct & functions & arrys</a> </li> 
+            
+            </ul>
+            
+            </div><br><br>
+            <center><img src="imgres.jpg"; >  </center><br>
+            <div class="oy" style="padding:1px">
+    <a href="../home/homepage.html">home page</a>
+            </div>
+            <script src= "../codejs.js"></script>
+        </body>
+       </html> 

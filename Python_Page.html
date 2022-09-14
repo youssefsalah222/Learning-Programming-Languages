@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<HTML>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Welcome to my website">
+	<title>Python</title>
+	<style></style>
+	<script></script>
+	<link rel="stylesheet" href="style.css"/>
+</head>
+<BODY>
+	<h1>Welcome in Python Programming Language Tutorial</h1>
+	<h2>Introduction to Python</h2>
+	<div class="example_out">
+		It was created by Guido van Rossum, and released in 1991. It is used for web development, mathematics, system scripting and software development. <br>
+		Python can be used on a server to create web applications. Python can be used alongside software to create workflows.Python can connect to database systems. It can also read and modify files. Python can be used to handle big data and perform complex mathematicsPython can be used for rapid prototyping, or for production-ready software development.Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).</div>
+
+	<h2>Syntax</h2>
+	<div class="example_out">
+	<p> Python syntax can be executed by writing directly in the Command Line:</p>
+	<h3 style = text-decoration:underline>Example</h3>
+	<div class="example_in"> 
+		<span style="color: red"> >>> print("Hello, World!") <br>
+		Hello, World! </div>
+	</p>
+</div>
+
+	<h2>Comments</h2>
+	<div class="example_out">
+	<p>
+		Comments can be used to explain Python code. Comments can be used to make the code more readable. <br>
+		Comments can be used to prevent execution when testing code. Comments starts with a <span style="color: green">#</span><br>
+		<h3 style = text-decoration:underline>Example</h3>
+	</p>
+	<div class="example_in"> 
+	 <span style="color: green">#This is a comment </span> <br><span style="color: red"> print("Hello, World!")</span>
+	</div>
+</div>
+
+	<h2>Data Types</h2>
+	<div class="example_out">
+	<p>
+		In programming, data type is an important concept. Variables can store data of different types, and different types can do different things.<br>
+		Python has the following data types built-in by default, in these categories:</p>
+		<ul>
+			<li>Text Type: <span style="color: blue">str</span></li>
+			<li>Numeric Types:<span style="color: blue">int, float, complex</span></li>
+			<li>Sequence Types:<span style="color: blue">list, tuple, range</span></li>
+			<li>Mapping Type:<span style="color: blue">dict</span></li>
+			<li>Set Types:<span style="color: blue">set, frozenset</span></li>
+			<li>Boolean Type:<span style="color: blue">bool</span> (Booleans represent one of two values: True or False)</li>
+			<li>Binary Types:<span style="color: blue">bytes, bytearray, memoryview</span></li>
+		</ul>
+	</div>
+
+		<h2>Python Conditions and If statements</h2>
+		<div class="example_out">
+		<p>
+			Python supports the usual logical conditions from mathematics:</p>
+			<ul>
+				<li>Equals: <span style="color: red">a == b</span></li>
+				<li>Not Equals: <span style="color: red">a != b</span></li>
+				<li>Less than:<span style="color: red">a < b</span></li>
+				<li>Less than or equal to:<span style="color: red">a <= b</span></li>
+				<li>Greater than:<span style="color: red">a > b</span></li>
+				<li>Greater than or equal to:<span style="color: red">a >= b</span></li>
+			</ul>
+			An "if statement" is written by using the if keyword.<br>
+			<h3 style = text-decoration:underline>Example</h3>
+			<div class="example_in">
+			<span style="color: red"> a = 33 <br> b = 200</span><br>
+				<span style="color: blue">if</span> b > a:<br>
+				<span style="color: blue">print</span>("b is greater than a")<br>
+		</div>
+	</div>
+
+		<h2>Python While Loops</h2>
+		<div class="example_out">
+		<p>With the while loop we can execute a set of statements as long as a condition is true.</p>
+			<h3 style = text-decoration:underline>Example</h3>
+			<div class="example_in">
+			<span style="color: red"> i = 1</span><br><span style="color: blue"> while</span> i < 6:<br>
+				<span style="color: blue"> print</span>(i)<br> i += 1
+				<p>the output is 1 2 3 4 5 6</p>
+			</div>
+		</div>
+
+		<h2>The break Statement</h2>
+		<div class="example_out">
+		<p>
+			With the <span style="color: blue">break</span> statement we can stop the loop even if the while condition is true.</p>
+			<h3 style = text-decoration:underline>Example</h3>
+			<div class="example_in">
+			<span style="color: red">i = 1</span><br><span style="color: blue"> while</span> i < 6:<br>
+				<span style="color: blue">print</span>(i)<br><span style="color: blue">if</span>i == 3:<br><span style="color: blue"> break</span><br> i += 1
+			</div>
+				<p>the output is 1 2 3</p>
+		</div>
+
+		<h2>The continue Statement</h2>
+		<div class="example_out">
+		<p>
+			With the <span class="syntax2">continue</span> statement we can stop the current iteration, and continue with the next.</p>
+			<h3 style = text-decoration:underline>Example</h3>
+			<div class="example_in">
+			<span style="color: red">i = 0</span><br><span style="color: blue"> while</span> i < 6:<br>
+				i += 1 <br><span style="color: blue">if</span> i == 3:<br><span style="color: blue">
+				 continue</span><br> <span style="color: blue"> print</span>(i)<br>
+				</div>
+				<p>the output is 1 2 4 5 6</p>
+			</div>
+
+		<h2>The else Statement</h2>
+		<div class="example_out">
+		<p>With the <span style="color: blue">else</span> statement we can run a block of code once when the condition no longer is true.</p>
+		<h3 style = text-decoration:underline>Example</h3>
+		<div class="example_in">
+		<span style="color: red">i = 1</span><br><span style="color: blue"> while</span> i < 6:<br>
+		<span style="color: blue"> print</span>(i)<br>i += 1<br> <span style="color: blue"> else:</span><br>
+		<span class="syntax2"> print</span> ("i is no longer less than 6")
+	</div>
+		<p>the output is i is no longer less than 6</p>
+	</div>
+
+		<h2>Python For Loops</h2>
+		<div class="example_out">
+		<p>A <span style="color: blue">for</span> loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
+			<br>
+			This is less like the for keyword in other programming languages, and works more like an iterator method as found in other object-orientated programming languages.<br> With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.</p>
+			<h3 style = text-decoration:underline>Example</h3>
+			<p>Print each fruit in a fruit list:</p>
+			<div class="example_in">
+			fruits = [<span style="color: red">"apple", "banana", "cherry"</span>]<br>
+			 <span style="color: blue">for</span> x <span style="color: blue">in</span>
+				fruits:<br> <span style="color: blue">print</span>(x)
+			</div>
+		</div>
+
+		<h2>Nested Loops</h2>
+		<div class="example_out">
+		<p>
+		A nested loop is a loop inside a loop. The "inner loop" will be executed one time for each iteration of the "outer loop".</p>
+		<h3 style = text-decoration:underline>Example</h3>
+		<p>Print each adjective for every fruit:</p>
+		<div class="example_in">
+		adj = [<span style="color: red">"red", "big", "tasty"</span>]<br>fruits = [<span style="color: red">"apple", "banana", "cherry"</span>]<br>
+			<span style="color: blue">for</span> x <span style="color: blue"> in</span> adj:<br> <span style="color: blue">for</span> x <span style="color: blue"> in</span> fruits:<br> <span style="color: blue">print</span>(x, y) 
+		</div>
+	</div>
+
+	<h2>Arrays</h2>
+	<div class="example_out">
+		<p>An array is a special variable, which can hold more than one value at a time. Arrays are used to store multiple values in one single variable:</p>
+		<h3 style = text-decoration:underline>Example</h3>
+		<p>Create an array containing car names:</p>
+		<div class="example_in">
+			cars = [<span style="color: red">"Ford", "Volvo", "BMW"</span>]
+		</div>
+	</div>
+
+	<h2>Functions (Creating a Function)</h2>
+	<div class="example_out">
+		<p>A function is a block of code which only runs when it is called. You can pass data, known as parameters, into a function. A function can return data as a result. In Python a function is defined using the <span style="color: blue"> def</span> keyword:</p>
+		<h3 style = text-decoration:underline>Example</h3>
+		<div class="example_in">
+			<span style="color: blue">def</span> my_function():<br> <span style="color: blue">print</span>("Hello from a function")
+		</div>
+	</div>
+
+	<h2>Functions (Calling a Function)</h2>
+	<div class="example_out">
+		<p>To call a function, use the function name followed by parenthesis:</p>
+		<h3 style = text-decoration:underline>Example</h3>
+		<div class="example_in">
+			<span style="color: blue">def</span> my_function():<br> <span style="color: blue">print</span>("Hello from a function")<br>
+			my_function()
+		</div>
+	</div>
+	  <script src= "codejs.js"></script>
+
+</BODY>
+<HTML>

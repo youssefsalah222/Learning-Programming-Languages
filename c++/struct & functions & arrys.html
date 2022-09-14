@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name ="description" content="this website is taking about c++ ">
+    <link rel="stylesheet"href="style.css">
+    <title> home page of c++  </title>
+    <style>
+
+
+        </style>
+</head>
+
+
+       <body>
+        <div>
+            <i> welcome in  c++ </i>
+          </div>
+          <h1>Structures in C++:</h1>
+          <div class="ok" >
+            A <mark>structure</mark> is a user-defined data type in C/C++. A <mark>structure</mark><br>
+             creates a data type that can be used to group items of possibly different types into a single type.<br>
+             <hr>
+            <h2>How to create a structure?</h2>
+            The ‘struct’ keyword is used to create a structure.<br>
+             The general syntax to create a structure is as shown below:<br>
+              <div class="ok">
+
+                <span class="if">struct</span> <mark>structureName</mark>{<br>
+                    member1;<br>
+                    member2;<br>
+                    member3;<br>
+                    .<br>
+                    .<br>
+                    .<br>
+                    memberN;<br>
+                };<br>
+              </div>
+         <h3>Structures in C++ can contain two types of members:</h3>
+         <ul>
+<li>   <mark>Data Member</mark>: These members are normal C++ variables.<br>
+     We can create a structure with variables of different data types in C++.<br></li>
+<li>     <mark>Member Functions</mark>: These members are normal C++ functions.<br>
+     Along with variables, we can also include functions inside a structure declaration.<br></li>
+         </ul>
+         <hr>
+         <h2>Example:</h2>
+         <div class="ok">
+            <span class="if">include</span> &lt;iostrem&gt;<br>  
+            using <span class="if">namespace</span> std;<br> 
+              <span class="if">struct</span> name { <span class="co">int</span> x; <span class="co">int</span> c ; };<br>
+            <span class="co">int</span> main() { <br>
+            name f;<br>
+            <span class="if">cin</span>>>f.x>>f.c;<br>
+            <span class="if">cout</span> &lt;&lt;f.x+f.y&lt;&lt;endl;<br>
+            <span class="if">return</span> 0;<br>
+         </div>
+         <h2>the output :</h2>
+         <div class="ok">
+          2 3<br>
+          5<br>
+          <hr>
+         </div>
+          </div>
+          <h1> C++ Arrays </h1>
+          <div class="ok">
+            In this tutorial, we will learn to work with <mark>arrays</mark>.<br> We will learn to declare,
+             initialize,<br>
+             and access array elements in C++ programming with the help of examples.<br>
+             In C++, an array is a variable that can store multiple values of the same type. For example,<br>
+             Suppose a class has 27 students, and we need to store the grades of all of them.<br>
+             Instead of creating 27 separate variables, we can simply create an array:<br>
+             <div class="ok">
+                 *double grade[27];
+             </div>
+             Here, grade is an array that can hold a maximum of 27 elements of double type.<br>
+             In C++, the size and type of arrays cannot be changed after its declaration.<br>
+             <hr><hr><hr>
+             <h1> C++ Array Declaration: </h1>
+             <div class="ok">
+                *dataType arrayName[<mark>arraySize</mark>];<br>
+             </div>
+             <hr>
+             <h2> For example :</h2>
+             <div class="ok">
+                <span class="co">int</span> x[5];<br>
+             </div>
+             <center> <img src="arry.PNG" height="100" width="600"></center>
+          </div>
+          <h1> C++ Functions</h1>
+          <div class="ok">
+            A function is a block of code which only runs when it is called.<br>
+
+            You can pass data, known as parameters, into a function.<br>
+            
+            Functions are used to perform certain actions,<br>
+             and they are important for reusing code: Define the code once, and use it many times.<br>
+             <h2>Create a Function :</h2>
+             C++ provides some pre-defined functions, such as main(), which is used to execute code.<br>
+              But you can also create your own functions to perform certain actions.
+
+To create <br>(often referred to as declare) a function, specify the name of the function,
+ followed by parentheses ():<br>
+ <hr><hr>
+ <h1>Syntax</h1>
+<div class="ok">
+    <span class="co">void</span> myFunction() {<br>
+    <span class="pop">// code to be executed </span><br>
+}<br>
+
+</div>
+<ul>
+    <li> <mark>myFunction()</mark> is the name of the function</li>
+    <li><mark>void</mark> means that the function does not have a return value.<br>
+         You will learn more about return values later in the next chapter<br></li>
+    <li>inside the function (the body), add code that defines what the function should do
+    </li>
+</ul>
+<h1>Example :</h1>
+<div class="ok"> 
+    <span class="if">include</span> &lt;iostrem&gt;<br>  
+            using <span class="if">namespace</span> std;<br> 
+
+    <span class="co">void</span> myFunction() {<br>
+        <span class="if">cout</span> &lt;&lt;<span class="to"> "I just got executed!";</span><br>
+      }<br>
+
+      
+      <span class="co">int</span> main() { <br>
+        <span class="co">myfunction</span>(); <span class="pop">// call the function</span><br>
+        <span class="if">return</span> 0;<br>
+      }<br>
+      
+      <span class="pop">// Outputs "I just got executed!"</span><br>
+</div>
+          </div>
+          <hr><hr>
+          <div class="oy">
+
+            <ul class="ull">
+                
+            <li> <a href="if condition & switch.html">if condition & switch</a> </li>
+            <li> <a href="for loob&while&do while.html">for loob & while & do while</a> </li>
+            <li> <a href="struct & functions & arrys.html">struct & functions & arrys</a> </li> 
+            
+            </ul>
+            
+            </div><br><br>
+            <center><img src="imgres.jpg"; >  </center><br>
+            <div class="oy" style="padding:1px">
+    <a href="../home/homepage.html">home page</a>
+            </div>
+       </body>
+       <script src= "../codejs.js"></script>
+</html>

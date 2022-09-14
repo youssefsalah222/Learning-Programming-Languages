@@ -1,0 +1,240 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset="utf-8">
+       <meta name ="description"content ="Welcome to my website">
+       <title>CSS</title>
+       <style> </style>
+       <script></script>
+       <link rel="stylesheet"href="style.css"type="text/css"/> 
+    <head>
+    <body>
+    <h1>Welcome in CSS Tutorial</h1>
+    <h2>Introduction </h2>
+    <div class="example_out">
+        CSS stands for Cascading Style Sheets.External stylesheets are stored in CSS files.
+        CSS saves a lot of work. It can control the layout of multiple web pages all at once.
+        CSS is support HTML at many things like displayed on screen, paper, or in other media.
+    </div>
+    <h2>Syntax</h2>
+    <div class="example_out">
+         <p>h1<br>
+     {
+      color: blue;
+      font-weight: bold 
+     }<br>
+      h1 : <span style=color:#960F0F>Selector</span>  <br>
+      color :<span style=color:#960F0F> Property </span>	
+      blue  : <span style=color:#960F0F>Value</span><br>
+      font-weight : <span style=color:#960F0F>Property</span>
+      bold :<span style=color:#960F0F>Value</span>
+      <h3 style = text-decoration:underline>Example</h3>
+        
+        <div class="example_in">
+            <p>
+       p 
+       { <br>
+        color :<span style=color:#960F0F> red;</span><br>
+        font-size : <span style=color:#960F0F> 20px</span><br>
+       { <br>
+        <br></p>
+        
+        </div>
+    </div>
+    <h2>Comments</h2>
+    <div class="example_out">
+            Comments are used to explain the code, and may help when you edit the source code at a later date.
+            A CSS comment is placed inside the  element, and starts with<span style = color:grey>/*</span> and end with <span style = color:grey>*/</span>.
+            You can add comments wherever you want in the code.
+             <h3><span style =text-decoration:underline>Example</span></h3>
+        <div class="example_in">
+             p {<br>
+            color: red;  /* <span style=color:#960F0F> Set text color to red </span>*/<br>
+          }
+        </div>
+    </div>
+    <h2>Box Model</h2>
+    <div class="example_out">
+            All HTML elements can be considered as boxes. In CSS, the term "box model" is used when talking about design and layout.
+            The CSS box model is essentially a box that wraps around every HTML element.
+            It consists of: margins, borders, padding, and the actual content. The image below illustrates the box model
+        <h3 style=color:#960F0F> Explanation of the different parts</h3>
+    <ul>
+        <li><span style = color:red>Content</span> : The content of the box, where text and images appear</li>
+        <li><span style= color:red> Margin</span> : Clears an area around the content. The padding is transparent</li>
+        <li><span style= color:red>Padding</span> : A border that goes around the padding and content</li>
+        <li><span style= color:red>border</span> : Clears an area outside the border. The margin is transparent</li>
+    </ul>
+     <h3><span style =text-decoration:underline>Example</span></h3>
+        
+        <div class="example_in">
+           <span class="ex">width</span> :200px; <br>
+           <span class="ex">margin</span> :10px;<br>
+           <span class="ex">padding</span> :20px;<br>
+           <span class="ex">border</span> :5px solid red<br>
+        </div>
+        
+    </div>
+    <h2>Borders</h2>
+    <div class="example_out">
+        <h3 style= text-decoration:underline;color:#DB1111>Borders Style</h3>
+        <p>The following values are allowed:</p>
+        <ul>
+            <li><span style = background-color:gray>dotted</span> :Defines a dotted border</li>
+            <li><span style = background-color:gray> dashed </span> :Defines a dashed border</li>
+            <li> <span style = background-color:grey>solid</span> :Defines a solid border</li>
+        </ul>
+        <h3><span style =text-decoration:underline>Example</span></h3>
+        <div class="example_in">
+            {<span style=color:red>border-style</span>:solid} <br>
+            {<span style=color:red>border-style</span>:dashed}<br>
+        </div>
+         <h3 style= text-decoration:underline;color:#DB1111>Borders </h3>
+         The<span style=color:red> border-width</span> property specifies the width of the four borders.<br>
+         The width can be set as a specific size (in px, pt, cm, em, etc) or by using one of the three pre-defined values: thin, medium, or thick.
+          <h3><span style =text-decoration:underline>Example</span></h3>
+         <div class="example_in">
+           <span style = color:blue>span.one</span>
+            {<br>
+            <span style=color:red> border-style</span> :solid<br>
+            <span style=color:red> border-width</span> :10px<br>
+            }
+         </div>
+         <h3 style= text-decoration:underline;color:#DB1111>Borders color</h3>
+         The <span style= color:red>border-color</span> property is used to set the color of the four borders.<br>
+         The color can be set by:<br>
+         <ul>
+            <li>name - specify a color name, like "red"</li>
+            <li>HEX - specify a HEX value, like "#ff0000"</li>
+            <li>RGB - specify a RGB value, like "rgb(255,0,0)"</li>
+            <li>HSL - specify a HSL value, like "hsl(0, 100%, 50%)"</li>
+         </ul>
+            <h3><span style =text-decoration:underline>Example</span></h3>
+            <div class="example_in">
+                {<br>
+            <span style=color:red> border-color</span> :red<br>
+            <span style=color:red> border-width</span> :10px<br>
+            }   
+            </div>
+    </div>
+    <h2>Padding</h2>
+    <div class="example_out">
+    CSS has properties for specifying the padding for each side of an element:
+    <ul>
+        <li style=color:red>padding-top</li>
+        <li style=color:red>padding-right</li>
+        <li style=color:red>padding-bottom</li>
+        <li style=color:red>padding-left</li>
+    </ul>
+    All the padding properties can have the following values:
+    <ul>
+        <li>length - specifies a padding in px, pt, cm, etc.</li>
+        <li>% - specifies a padding in % of the width of the containing element</li>
+    </ul>
+     <h3><span style =text-decoration:underline>Example</span></h3>
+    <div class="example_in">
+     div
+     {<br>
+        <span style=color:red>padding-top</span> :20px;<br>
+        <span style=color:red>padding-right</span> :10px;<br>
+        <span style=color:red>padding-bottom</span> :20px;<br>
+        <span style=color:red>padding-left</span> :15px;<br>
+     }
+     <p style = text-decoration:line-through>OR</p>
+     div
+     {<br>
+     <span style=color:red>padding</span> :20px 10px 20px 15px;<br>
+     }
+    </div>
+ </div>
+     <h2>Position</h2>
+     <div class="example_out">
+        The<span style=color:red> position </span> property specifies the type of positioning method used for an element.
+        <ul>
+            <li style=color:red>Static</li>
+            <li style=color:red>fixed</li>
+            <li style=color:red>relative</li>
+            <li style=color:red>Sticky</li>
+        </ul>
+        Elements are then positioned using the top, bottom, left, and right properties.
+        However, these properties will not work unless the position property is set first. They also work differently depending on the position value.
+          <h3><span style =text-decoration:underline>Example</span></h3>
+        <div class="example_in">
+            div {<br>
+             <span style=color:red>position</span>: static;<br>
+             <span style= color:red >border</span>: 3px solid #73AD21;<br>
+             }
+        </div>
+     </div>
+     <h2>Links</h2>
+     <div class="example_out">
+      <h3 style= text-decoration:underline;color:#DB1111>Styling Links</h3>
+      Links can be styled with any CSS property (<span style= color:red>color</span>, <span style= color:red>font-family</span>, <span style= color:red>background</span>,, etc.).
+        <h3><span style =text-decoration:underline>Example</span></h3>
+      <div class="example_in">
+       a {<br>
+       <span style=color:red>color</span>: hotpink;<br>
+        }   
+      </div>
+      In addition, links can be styled differently depending on what state they are in.<br>
+      The four links states are:
+      <ul>
+       <li><span style = color:red>a:Link</span>-a normal, unvisited link</li>
+       <li><span style = color:red>a:visited</span>-a link the user has visited</li>
+       <li><span style = color:red>a:hover</span>-a link when the user mouses over it</li>
+       <li><span style = color:red>a:active</span>-a link the moment it is clicked</li>
+      </ul>
+       <h3><span style =text-decoration:underline>Example</span></h3>
+      <div class="example_in">
+       a:link {<br>
+      <span style = color:red> color</span>: red;<br>
+            }<br>
+         a:hover {<br>
+      <span style = color:red> color</span>: blue;<br>
+            }<br>
+            a:visited {<br>
+      <span style = color:red> color</span>: red;<br>
+            }<br>
+              a:active {<br>
+      <span style = color:red> color</span>: gray;<br>
+            }<br>
+      </div>
+     </div>
+     <h2>Display</h2>
+     <div class="example_out">
+       <h3 style= text-decoration:underline;color:#DB1111>The Display Property</h3>
+       The <span style= color:red>display</span> property specifies if/how an element is displayed.
+       Every HTML element has a default display value depending on what type of element it is.
+       The default display value for most elements is<span style=color:red> block </span>or <span style=color:red> inline </span>.<br>
+    <h3 style= text-decoration:underline;color:#DB1111>The Display:none; </h3>
+        <span style= color:red> display: none;</span> is commonly used with JavaScript to hide and show elements without deleting and recreating them.
+         Take a look at our last example on this page if you want to know how this can be achieved.
+       <h3><span style =text-decoration:underline>Example</span></h3>
+       
+      <div class="example_in">
+       li {<br>
+        <span style=color:red >display</span>: inline;<br>
+          }
+      </div>
+     </div>
+     <h2>Align</h2>
+     <div class="example_out">
+       <h3 style= text-decoration:underline;color:#DB1111>Center Align Elements</h3>
+       To horizontally center a block element (like div), use <span style = color:red>margin</span>: auto;
+       Setting the width of the element will prevent it from stretching out to the edges of its container.<br>
+      The element will then take up the specified width, and the remaining space will be split equally between the two margins:
+      <div class="example_in">
+       .center
+       {<br>
+       <span style=color:red>text-align</span>:center;<br>
+       <span style=color:red>border</span> :3px solid green<br>
+       }
+      </div>
+       
+      
+     </div>
+       <script src= "codejs.js"></script>
+
+    </body>
+</html>

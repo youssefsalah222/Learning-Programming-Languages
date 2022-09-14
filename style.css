@@ -1,0 +1,56 @@
+body
+{
+	width: 1500px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 1500px auto;
+
+}
+h1
+{
+	color: white;
+	background-color: black;
+	text-align: center;
+}
+h2
+{
+	color: white;
+	text-align: left;
+	margin: 2px -9px;
+	padding: 10px
+}
+div.example_out
+{
+	
+	width:  1400px;
+	height: 250px auto;
+	color: #000000 ;
+	background-color: #e0dede;
+	padding-top: 25px;	
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 25px;
+	font-size: 20px;
+	line-height: 35px;
+	border-width: 3px 3px 3px 5px;
+	border-color: black black black #323345;
+	border-style: solid;
+	margin:10px auto;
+	position: static;
+	top: 100px;	
+}
+div.example_in
+{
+width: 1120px auto;
+height: 150px auto;
+color: #000000 ;
+background-color: #ffffff;
+margin: 15px auto ;
+padding-top: 15px;	
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 15px;
+font-size: 20px;
+line-height: 35px;
+position: relative;
+}

@@ -1,0 +1,98 @@
+body
+{
+	width: 1500px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 1500px auto;
+
+}
+h1 , h2 
+{
+	color: white ;
+}
+
+div.example_out
+{
+	
+	width:  1400px	;
+	height: 250px auto;
+	color: #000000 ;
+	background-color: #e0dede;
+	padding-top: 25px;	
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 25px;
+	font-size: 20px;
+	line-height: 35px;
+	border-width: 3px 3px 3px 5px;
+	border-color: black black black#323345;
+	border-style: solid;
+	margin:10px auto;
+	position: static;
+	top: 100px;
+	
+
+}
+div.example_in
+{
+width: 1120px auto;
+height: 150px auto;
+color: #000000 ;
+background-color: #ffffff;
+margin: 15px auto ;
+padding-top: 15px;	
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 15px;
+font-size: 20px;
+line-height: 35px;
+position: relative;
+}
+
+span.ex
+{
+	font-size: 30px;
+}
+.mostafa
+{
+	right: 10px;
+	position: relative;
+	width: 50px;
+	display: inline;
+}
+.inline
+{
+	display: inline;
+}
+.left
+{
+	right: 10px;
+	position: relative;
+}
+.wpt
+{
+	font-size: 50px ;
+	text-align: center;
+	background-color:#293439;
+	position: relative;
+	padding: 10px;
+	border-style: ridge;
+	border-color: #383634;
+	color: #fff;
+
+}
+.box
+{
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-left: 3px solid #f2334c;
+  color: #666;
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1px 1.5px;
+  display: block;
+}

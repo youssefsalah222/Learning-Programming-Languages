@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+       
+	   <meta charset="utf-8">
+	   <title>form</title>
+	   
+	   <style>
+	   
+		   legend
+		   {
+		      border:1px solid;
+			  padding:10px;
+			  background:white;
+		     
+		   }
+		   
+		  
+		   
+		   fieldset
+		   {
+		     background:gray;
+			 padding:30px;
+			 margin:40px;
+			
+		   }
+			
+		 input
+		 {
+		   margin:20px;
+		    border-radius: 15px ;
+		   border : 3px solid #c7bfbf;
+		 }
+		 
+		 label
+		 {
+			width:150px;
+			display:inline-block;
+		    margin:10px;
+		 }
+		 
+		 input[type="text"],input[type="password"]
+		 {
+		   padding:10px;
+		   width:200px;
+		 
+		 }
+		 
+		 img 
+		 {
+		   
+		   position:fixed;
+		   width:350px;
+		   right:400px;
+		   bottom:600px;
+		   top:185px;
+		  
+		    
+		 }
+		 
+			
+	   
+	   </style>
+	
+	
+
+<body>
+	
+	
+	<!------------------------------------------------------ -->
+   
+   
+   
+   
+	    <fieldset style="margin: 95px;">
+		
+		     <legend>Login form</legend>
+			<form name="regestir" >
+			
+			<label>Email </label>
+			<input type="text" placeholder="email or username" name= "email">
+			
+			<br>
+		
+			
+			<label>Password</label>
+			<input type="password" maxlength="10" placeholder="enter your password" name="password" >
+		   
+			<br>
+				
+			
+			<input type="checkbox">
+			<label>remember me</label>
+			
+			<br>
+			
+			<input type="button" value = "sign in" onclick="logInvalidate(document.regestir)" >
+			<input type="button" value="Sign Up" onclick="window.location.href = 'signup form.html';"  >	
+			  <img src="https://images.pexels.com/photos/461077/pexels-photo-461077.jpeg?cs=srgb&dl=pexels-picjumbocom-461077.jpg&fm=jpg">
+		</form>
+		<fieldset>
+		
+		
+   
+   
+   
+	
+	<script src= "codejs.js" >
+	
+	</script>
+	</head>
+	
+</body>
+
+
+
+
+
+
+</html>

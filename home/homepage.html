@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <meta charset="utf-8">
+     <meta name= "description" content=" In this site we will learn Html,Css,C++,Python">
+     <link rel="stylesheet" href="styles.css">
+    
+    </head>
+        <body>
+         
+
+ 
+             <ul>
+                    <li style="float:left"><a class="header">Let's Coding</a></li>
+                    <li><a href="../c++/c++.html">C++</a></li>
+                    <li><a href="../Python_Page.html">Python</a></li>
+                    <li> <a href="../HTML_Page.html">Html</a></li>
+                    <li> <a href="../CSS_page.html">Css</a></li> 
+                    <li><a href="contact_us.html" >Contact Us</a></li>
+                    <li><a class="activeheader"> Home</a></li>
+             </ul>
+             
+             <!-- End nav bar -->
+             
+         <div class="Registration">
+            
+             <a href="../signup form.html"><img src ="Register-512.png" width="50" height="50" title="Register"</a>
+             <a href="../loginform.html"><img src ="Untitled-3.png" width="70" height="50" title="log out"</a>
+
+         </div>
+         
+         
+    
+      
+      
+       <div class="slideshow-container">
+            
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 4</div>
+              <a href="../HTML_Page.html"> <img src="d.jpg" style="width:100%" ></a> 
+                <div class="text">Html</div>
+            </div>
+            
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 4</div>
+               <a href="../Python_Page.html"> <img src="123.png" style="width:100%"></a>
+                <div class="text">Python</div>
+            </div>
+            
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+               <a href="../CSS_page.html"> <img src="12.jpg" style="width:100%"></a>
+                <div class="text">Css</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+              <a href="../c++/c++.html">  <img src="1.jpeg" style="width:100%"></a>
+                <div class="text">C++</div>
+            </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+            <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span> 
+        </div>
+
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1;}    
+      if (n < 1) {slideIndex = slides.length;}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+</script>
+
+        </body>
+ </html>           
